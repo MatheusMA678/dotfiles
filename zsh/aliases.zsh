@@ -8,6 +8,7 @@ hash -d dev=$HOME/Documents/projects
 # Aliases
 alias home="cd ~home"
 alias dev="cd ~dev"
+alias mcconf="cd $HOME/.minecraft"
 alias reload="source ~/.zshrc"
 alias install="sudo apt install"
 alias up="sudo apt update"
@@ -16,6 +17,7 @@ alias zshconfig="code $HOME/.zshrc"
 alias del="rm -rf"
 alias myip="curl http://ipecho.net/plain; echo"
 alias web="google-chrome-stable"
+alias mcas="java -jar --module-path $JAVA_FX --add-modules javafx.controls $HOME/mcaselector-2.2.2.jar"
 
 # Node.js Aliases
 alias tw="yarn add -D tailwindcss postcss autoprefixer && yarn tailwindcss init -p"
@@ -40,4 +42,4 @@ alias gds="git diff --stat"
 alias ls="lsd"
 
 # Game Aliases
-alias minecraft="java -jar $HOME/games/TLauncher.jar"
+alias minecraft="java -jar $HOME/games/TLauncher/TLauncher.jar"

@@ -5,7 +5,7 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
     jsontools
-    node
+    nodenv
     web-search
     sudo
     copypath
