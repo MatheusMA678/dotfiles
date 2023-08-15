@@ -3,7 +3,7 @@
 #
 # Named Directories:
 hash -d home=$HOME
-hash -d dev=$HOME/Documents/projects
+hash -d dev=$HOME/Documentos/projects
 
 # Aliases
 alias home="cd ~home"
